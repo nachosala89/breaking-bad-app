@@ -1,15 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Breaking Bad Api project
+# Breaking Bad App
 
-> This App consumes an API with the info of the breaking bad, here, we're presenting the characters, and in other API, we're posting and reading the comments and likes.
+> This project is proposed by Microverse as capstone project for the Javascript module. The topic we chose to work on is the world-famous series Breaking Bad. This App consumes two API: One to get the data about the Breaking Bad characters (https://www.breakingbadapi.com/api/characters), and another to access and modify the data about comments and likes for the displayed content (https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/AOlok8LvMamqLq187WOm/likes/).
 
 ![image](https://user-images.githubusercontent.com/59240486/137384970-79db261f-91b7-4216-93b8-d02fb302eb36.png)
 
-The APIs consumed are https://www.breakingbadapi.com/api/characters, https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/AOlok8LvMamqLq187WOm/likes/.
-
 ## Built With
-- Javascrip
+- Javascript
 - CSS
 - HTML
 - Bootstrap
@@ -19,11 +17,9 @@ The APIs consumed are https://www.breakingbadapi.com/api/characters, https://us-
 
 
 ## Getting Started
-Before we start, make sure you fit the prerequisites, the source code is inside the folder SRC/ and the built code used to the live demo is inside of DOCS/
 
 ### Prerequisites
 - npm installed
-- VSCode
 
 ### Setup
 - git clone https://github.com/Wikitelmex/kanban-capstone.git
@@ -33,7 +29,7 @@ Before we start, make sure you fit the prerequisites, the source code is inside 
 - `npm install --also=dev` (to install the dev dependencies, like webpack)
 
 ### Usage
-- `npm run start` from VSCode
+- `npm run start`
 - or double click to index.html inside the folder DOCS/ to run directly
 
 ### Run tests
